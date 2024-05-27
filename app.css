@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.logo{
+    width: 80px;
+}
+.nav-items ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items ul li {
+    padding: 20px;
+}
