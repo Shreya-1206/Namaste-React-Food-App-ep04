@@ -1,6 +1,26 @@
 import React from "react";
 import ReactDom from "react-dom";
 
+// layout components
+// 1. Header
+//   *img logo
+//   *nav-items
+// 2. body
+//   * search
+//   *  Reaturant conatainer
+//      - ResCard
+//        # img
+//        # res name 
+//        # cusines
+//        # delivery time
+//        # star rating
+// 3 . Footer
+//    * copyright
+//    * links
+//    * address
+//    * contact       
+
+
 const Header=()  => {
   return (
     <div className="header">
@@ -17,6 +37,24 @@ const Header=()  => {
       </div>
     </div> 
   )
+};
+const ReasturantCard = () => {
+  return (
+    <div className="res-card">
+      <h3>Starbucks</h3>
+    </div>
+  )
+}
+
+const Body =() => {
+  return (
+    <div className="body">
+      <div className="serach">Search</div>
+      <div className="res-conatiner">
+        <ReasturantCard />
+      </div>
+    </div>
+  )
 }
 
 
@@ -24,8 +62,8 @@ const AppLayout = () => {
     return (
         <div className="app">
            <Header/>
-           {/* body 
-           footer */}
+           <Body />
+           {/* footer */}
         </div>
     )
 };
