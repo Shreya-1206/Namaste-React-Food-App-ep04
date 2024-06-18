@@ -1738,10 +1738,10 @@ if(!resData){
         cloudinaryImageId}
       />
       <h3>{name}</h3>
-      <h5>{cuisines.join(", ")}</h5>
-      <h5>{sla.deliveryTime} mintutes</h5>
-      <h5>{costForTwo}</h5>
-      <h5>{avgRating} stars</h5>
+      <h4>{cuisines.join(", ")}</h4>
+      <h4>{sla.deliveryTime} mintutes</h4>
+      <h4>{costForTwo}</h4>
+      <h4>{avgRating} stars</h4>
     </div>
   )
 }
